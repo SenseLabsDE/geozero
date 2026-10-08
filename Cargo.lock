@@ -161,14 +161,14 @@ checksum = "2af50177e190e07a26ab74f8b1efbfe2ef87da2116221318cb1c2e82baf7de06"
 
 [[package]]
 name = "bindgen"
-version = "0.71.1"
+version = "0.72.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5f58bf3d7db68cfbac37cfc485a8d711e87e064c3d0fe0435b92f7a407f9d6b3"
+checksum = "993776b509cfb49c750f11b8f07a46fa23e0a1386ffc01fb1e7d343efc387895"
 dependencies = [
  "bitflags 2.11.1",
  "cexpr",
  "clang-sys",
- "itertools 0.13.0",
+ "itertools 0.11.0",
  "log",
  "prettyplease",
  "proc-macro2",
@@ -1027,9 +1027,8 @@ dependencies = [
 
 [[package]]
 name = "gdal"
-version = "0.18.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e721cea67b420fd4b5cb15ba8145f2f1d3a6931a27fdbfadb46cff02015e1cde"
+version = "0.19.0"
+source = "git+https://github.com/SenseLabsDE/gdal?branch=dev#474b473b9ca8b6a4ec73c16efdba71f1f6a52dec"
 dependencies = [
  "bitflags 2.11.1",
  "chrono",
@@ -1041,9 +1040,8 @@ dependencies = [
 
 [[package]]
 name = "gdal-sys"
-version = "0.11.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "febef67dc08a956a9ecb04de2b40dbd15ad56be49421aad9ae0cdcbe9a24166c"
+version = "0.12.0"
+source = "git+https://github.com/SenseLabsDE/gdal?branch=dev#474b473b9ca8b6a4ec73c16efdba71f1f6a52dec"
 dependencies = [
  "bindgen",
  "pkg-config",
